@@ -2,3 +2,30 @@
 @tailwind components;
 @tailwind utilities;
 
+
+.animate-wiggle {
+  -webkit-animation: wiggle 1s infinite;
+  animation: wiggle 1s infinite;
+}
+
+@-webkit-keyframes wiggle {
+  0%,
+  100% {
+    transform: scale(1.2) rotate(7deg);
+  }
+
+  50% {
+    transform: scale(0.8) rotate(-7deg);
+  }
+}
+
+@keyframes wiggle {
+  0%,
+  100% {
+    transform: scale(1.2) rotate(7deg);
+  }
+
+  50% {
+    transform: scale(0.8) rotate(-7deg);
+  }
+}

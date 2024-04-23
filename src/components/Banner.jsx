@@ -56,18 +56,34 @@ const Banner = () => {
               </div>
             </div>
             <div className='icon-list'>  
-                   <ul className='flex items-center gap-2 pb-5 text-primary text-xl'>
+                   <ul className='flex items-center gap-2 pl-4 pb-5 text-primary text-xl'>
                     <li>
+                    <div class="animate-wiggle">
+                    <div class="flex items-center justify-center w-8 h-8 rounded-l text-white bg-primary">
                         <Link  to="#"><FaFacebookF /></Link>
+                    </div>
+                   </div>
                     </li>
                     <li>
-                        <Link to="#"><FaXTwitter /></Link>
+                    <div class="animate-wiggle">
+                    <div class="flex items-center justify-center w-8 h-8 rounded-l text-white bg-primary">
+                      <Link to="#"><FaXTwitter /></Link>
+                    </div>
+                   </div> 
                     </li>
                     <li>
-                        <Link to="#"><FaInstagram /></Link>
+                    <div class="animate-wiggle">
+                    <div class="flex items-center justify-center w-8 h-8 rounded-l text-white bg-primary">
+                     <Link to="#"><FaInstagram /></Link>
+                    </div>
+                   </div>  
                     </li>
                     <li>
-                        <Link to="#"><FaLinkedin /></Link>
+                    <div class="animate-wiggle">
+                    <div class="flex items-center justify-center w-8 h-8 rounded-l text-white bg-primary">
+                     <Link to="#"><FaLinkedin /></Link>
+                    </div>
+                   </div>     
                     </li>
                    </ul>
                  </div>
@@ -104,18 +120,34 @@ const Banner = () => {
               </div>
             </div>
             <div className='icon-list'>  
-                   <ul className='flex items-center gap-2 pb-5 text-primary text-xl'>
+            <ul className='flex items-center gap-2 pl-4 pb-5 text-primary text-xl'>
                     <li>
+                    <div class="animate-wiggle">
+                    <div class="flex items-center justify-center w-8 h-8 rounded-l text-white bg-primary">
                         <Link  to="#"><FaFacebookF /></Link>
+                    </div>
+                   </div>
                     </li>
                     <li>
-                        <Link to="#"><FaXTwitter /></Link>
+                    <div class="animate-wiggle">
+                    <div class="flex items-center justify-center w-8 h-8 rounded-l text-white bg-primary">
+                      <Link to="#"><FaXTwitter /></Link>
+                    </div>
+                   </div> 
                     </li>
                     <li>
-                        <Link to="#"><FaInstagram /></Link>
+                    <div class="animate-wiggle">
+                    <div class="flex items-center justify-center w-8 h-8 rounded-l text-white bg-primary">
+                     <Link to="#"><FaInstagram /></Link>
+                    </div>
+                   </div>  
                     </li>
                     <li>
-                        <Link to="#"><FaLinkedin /></Link>
+                    <div class="animate-wiggle">
+                    <div class="flex items-center justify-center w-8 h-8 rounded-l text-white bg-primary">
+                     <Link to="#"><FaLinkedin /></Link>
+                    </div>
+                   </div>     
                     </li>
                    </ul>
                  </div>
@@ -153,18 +185,34 @@ const Banner = () => {
               </div>
             </div>
             <div className='icon-list'>  
-                   <ul className='flex items-center gap-2 pb-5 text-primary text-xl'>
+            <ul className='flex items-center gap-2 pl-4 pb-5 text-primary text-xl'>
                     <li>
+                    <div class="animate-wiggle">
+                    <div class="flex items-center justify-center w-8 h-8 rounded-l text-white bg-primary">
                         <Link  to="#"><FaFacebookF /></Link>
+                    </div>
+                   </div>
                     </li>
                     <li>
-                        <Link to="#"><FaXTwitter /></Link>
+                    <div class="animate-wiggle">
+                    <div class="flex items-center justify-center w-8 h-8 rounded-l text-white bg-primary">
+                      <Link to="#"><FaXTwitter /></Link>
+                    </div>
+                   </div> 
                     </li>
                     <li>
-                        <Link to="#"><FaInstagram /></Link>
+                    <div class="animate-wiggle">
+                    <div class="flex items-center justify-center w-8 h-8 rounded-l text-white bg-primary">
+                     <Link to="#"><FaInstagram /></Link>
+                    </div>
+                   </div>  
                     </li>
                     <li>
-                        <Link to="#"><FaLinkedin /></Link>
+                    <div class="animate-wiggle">
+                    <div class="flex items-center justify-center w-8 h-8 rounded-l text-white bg-primary">
+                     <Link to="#"><FaLinkedin /></Link>
+                    </div>
+                   </div>     
                     </li>
                    </ul>
                  </div>
@@ -202,18 +250,34 @@ const Banner = () => {
               </div>
             </div>
             <div className='icon-list'>  
-                   <ul className='flex items-center gap-2 pb-5 text-primary text-xl'>
+            <ul className='flex items-center gap-2 pl-4 pb-5 text-primary text-xl'>
                     <li>
+                    <div class="animate-wiggle">
+                    <div class="flex items-center justify-center w-8 h-8 rounded-l text-white bg-primary">
                         <Link  to="#"><FaFacebookF /></Link>
+                    </div>
+                   </div>
                     </li>
                     <li>
-                        <Link to="#"><FaXTwitter /></Link>
+                    <div class="animate-wiggle">
+                    <div class="flex items-center justify-center w-8 h-8 rounded-l text-white bg-primary">
+                      <Link to="#"><FaXTwitter /></Link>
+                    </div>
+                   </div> 
                     </li>
                     <li>
-                        <Link to="#"><FaInstagram /></Link>
+                    <div class="animate-wiggle">
+                    <div class="flex items-center justify-center w-8 h-8 rounded-l text-white bg-primary">
+                     <Link to="#"><FaInstagram /></Link>
+                    </div>
+                   </div>  
                     </li>
                     <li>
-                        <Link to="#"><FaLinkedin /></Link>
+                    <div class="animate-wiggle">
+                    <div class="flex items-center justify-center w-8 h-8 rounded-l text-white bg-primary">
+                     <Link to="#"><FaLinkedin /></Link>
+                    </div>
+                   </div>     
                     </li>
                    </ul>
                  </div>

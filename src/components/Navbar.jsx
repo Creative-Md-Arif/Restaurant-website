@@ -11,14 +11,14 @@ const Navbar = () => {
     <nav className= 'fixed z-10 bg-[#FFF8EE] py-3 mt-9 shadow-lg  w-full' >
       <div className='container flex items-center justify-between'>
         <div className='logocol'>
-         <Link to="/home">
+         <Link to="/">
          <img src="/public/logo.png" alt="navlogo" />
          </Link>
         </div>
         <div className='navitem'>
           <ul className='flex items-center gap-6 uppercase font-primary font-bold text-[20px] text-[#2A435D] '>
             <li>
-              <Link to="/home">Home</Link>
+              <Link to="/">Home</Link>
             </li>
             <li>
               <Link to="/about">ABOUT</Link>
