@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React from 'react'
 import { Link } from 'react-router-dom'
 
@@ -7,7 +8,7 @@ const PopularDishes = () => {
     <section className='bg-bg pt-12'>
        <div className='container'>
         <div className='text-center'>
-        <h5 className=' text-secondary font-primary text-xl font-blod'>Food Items</h5>
+        <h5 className=' text-secondary font-primary text-xl font-bold'>Food Items</h5>
         <h1 className='text-primary font-primary text-3xl font-bold pb-5'>Popular Dishes</h1>
         </div>
         <div className='flex items-center justify-between pb-5'>
@@ -19,7 +20,7 @@ const PopularDishes = () => {
         </div> 
         {/* RICH & HEALTHY part START */}
         <div>
-          <h5 className='text-center text-secondary font-primary text-xl font-blod pb-3'>RICH & HEALTHY</h5>
+          <h5 className='text-center text-secondary font-primary text-xl font-bold pb-3'>RICH & HEALTHY</h5>
           <div className='flex justify-between '>
             <div>
               <img src="/public/image_richHealthy_1.png" alt="image_richHealthy_1" />
