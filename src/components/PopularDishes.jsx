@@ -5,25 +5,37 @@ import { Link } from 'react-router-dom'
 
 const PopularDishes = () => {
   return (
-    <section className='bg-bg pt-12'>
+    <section className='bg-bg py-12'>
        <div className='container'>
         <div className='text-center'>
         <h5 className=' text-secondary font-primary text-xl font-bold'>Food Items</h5>
         <h1 className='text-primary font-primary text-3xl font-bold pb-5'>Popular Dishes</h1>
         </div>
-        <div className='flex items-center justify-between pb-5'>
-          <img src="/public/image_Dishes_1.png" alt="image_Dishes_1" />
-          <img src="/public/image_Dishes_2.png" alt="image_Dishes_2" />
-          <img src="/public/image_Dishes_3.png" alt="image_Dishes_3" />
-          <img src="/public/image_Dishes_4.png" alt="image_Dishes_4" />
-          <img src="/public/image_Dishes_5.png" alt="image_Dishes_5" />
+        <div className='rich&healthy flex items-center justify-between pb-5 ' >
+          <img src="/public/image_Dishes_1.png" alt="image_Dishes_1"
+           className=' hover:shadow-[rgba(0,0,0,0.6)_10px_5px_10px_0px] transition-all duration-500'
+          />
+          <img src="/public/image_Dishes_2.png" alt="image_Dishes_2"
+          className=' hover:shadow-[rgba(0,0,0,0.6)_10px_5px_10px_0px] transition-all duration-500'
+          />
+          <img src="/public/image_Dishes_4.png" alt="image_Dishes_4" 
+            className=' hover:shadow-[rgba(0,0,0,0.6)_10px_5px_10px_0px] transition-all duration-500'
+          />
+          <img src="/public/image_Dishes_3.png" alt="image_Dishes_3" 
+            className=' hover:shadow-[rgba(0,0,0,0.6)_10px_5px_10px_0px] transition-all duration-500'
+          />
+          <img src="/public/image_Dishes_5.png" alt="image_Dishes_5" 
+            className=' hover:shadow-[rgba(0,0,0,0.6)_10px_5px_10px_0px] transition-all duration-500'
+          />
         </div> 
         {/* RICH & HEALTHY part START */}
         <div>
           <h5 className='text-center text-secondary font-primary text-xl font-bold pb-3'>RICH & HEALTHY</h5>
-          <div className='flex justify-between '>
+          <div className='flex xl:gap-10'>
             <div>
-              <img src="/public/image_richHealthy_1.png" alt="image_richHealthy_1" />
+              <img src="/public/image_richHealthy_1.png" alt="image_richHealthy_1"
+              className=' rounded-md'
+              />
             </div>
             <div>
               <h3 className='w-[502px] pb-8 text-primary font-primary text-3xl font-extrabold'>Highest quality artisangrains, proteins & seasonal ingredients</h3>
@@ -49,12 +61,13 @@ const PopularDishes = () => {
                  </div>
                 </div>
                 <div>
-                  <img src="/public/image_richHealthy_2.png" alt="image_richHealthy_2.png" />
+                  <img src="/public/image_richHealthy_2.png" alt="image_richHealthy_2.png"
+                  className=' rounded-md'
+                  />
                 </div>
               </div>   
             </div>
           </div>
-        
         </div> 
         {/* RICH & HEALTHY part END */} 
        </div>

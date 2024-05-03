@@ -22,7 +22,9 @@ export default {
       primary:[ "Roboto", "sans-serif"],
       secondary:["Cormorant Upright","sans-serif"],
       opensans: ["Open Sans", "sans-serif"]
-    }
+    },
+
+
   },
   plugins: [],
 }
